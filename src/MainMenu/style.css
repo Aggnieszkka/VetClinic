@@ -1,0 +1,70 @@
+.header {
+    background-color: aqua;
+    text-align: left;
+    height: 50px;
+}
+
+.emptySpaceHeader {
+    display: inline-block;
+    width: calc(2vw);
+}
+
+.mainMenuButton {
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: calc(20vw);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: calc(0.5vw);
+    margin-right: calc(0.5vw);
+    border-radius: 5px;
+}
+
+.loginBox {
+    display: inline-block;
+    text-align: right;
+    height: 40px;
+    width: calc(30vw);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: calc(0.5vw);
+    margin-right: calc(0.5vw);
+}
+
+.icon {
+    height: 35px;
+    width: auto;
+}
+
+.iconBox {
+    display: inline-block;
+}
+
+.loginTextBox {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;  
+}
+
+.textBox {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 720px){
+    .textBox {
+        display: none;
+    }
+
+    .loginTextBox {
+        display: none;
+    }
+}

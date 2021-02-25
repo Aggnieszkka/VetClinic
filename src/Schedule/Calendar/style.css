@@ -1,0 +1,59 @@
+.calendarContainer {
+    margin-top: 0px;
+}
+
+.calendarRow {
+    height: 50px;
+}
+
+.topCalendarRow {
+    background-color: rgb(78, 78, 241);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.darkCalendarRow {
+    background-color: #a3d9f1;
+}
+
+.lightCalendarRow {
+    background-color: #fcfae5;
+}
+
+.calendarColumn {
+    display: inline-block;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hourColumn {
+    width: 9%;
+}
+
+.dayColumn {
+    width: 13%;
+}
+
+.longDayColumn {
+    width: 13%;
+}
+
+.shortDayColumn {
+    display: none;
+    width: 13%;
+}
+
+@media only screen and (max-width: 720px){
+    .calendarContainer {
+        width: calc(93vw);
+        margin-left: calc(3.5vw);
+        margin-right: calc(3.5vw);
+    }
+    .longDayColumn {
+        display: none;
+    }
+    .shortDayColumn {
+        display: inline-block;
+    }
+}
