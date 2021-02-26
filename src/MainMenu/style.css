@@ -21,6 +21,10 @@
     border-radius: 5px;
 }
 
+.mainMenuButton:hover {
+    cursor: pointer;
+}
+
 .loginBox {
     display: inline-block;
     text-align: right;

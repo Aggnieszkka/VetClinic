@@ -23,12 +23,14 @@ class CalendarLegendText extends Component {
     handleSubmit(event) {
         this.props.addName(this.state.value);
         this.props.showText();
+        this.props.changeColor();
         event.preventDefault();
     }
 
-    keyDown(event) {
-        if (event.keyCode === 27) {
+    keyDown(event) { 
+        if (event.keyCode === 27) { //escape click
             this.props.showText();
+            this.props.changeColor();
         }
     }
 
